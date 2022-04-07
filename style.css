@@ -74,11 +74,16 @@ button {
     font-weight: 700;
     font-size: 15px;
     letter-spacing: 0.6px;
+    transition: 0.2s;
 }
 
 button:hover {
     background-color: #781355;
     cursor: pointer;
+}
+
+button:active {
+    background-color: #000000;
 }
 
 @media (max-width:600px) {
